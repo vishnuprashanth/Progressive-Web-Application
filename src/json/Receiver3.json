@@ -1,0 +1,313 @@
+{
+    "id": 1,
+    "name": "Medewerker",
+    "fields": [
+      {
+        "$type": "CentralStationApiModels.GridAddressesField, CentralStationApiModels",
+        "value": [
+          {
+            "addressType": "three",
+            "street": "sssmsk3",
+            "houseNumber": "3",
+            "houseNumberAddition": null,
+            "zipCode": "3 TE",
+            "city": "Eindhoven3",
+            "state": null,
+            "country": "Nederland3",
+            "isDefaultAddress": true
+          }
+        ],
+        "checkBox": 1,
+        "name": "xmlAdressen",
+        "variableName": "sndadressen",
+        "mandatory": false,
+        "label": "Adres",
+        "tabsheet": "Personalia",
+        "tabsheetIndex": 1,
+        "keylistName": null,
+        "componentOrder": 7,
+        "visible": true,
+        "parentName": null,
+        "fieldXmlType": "TXMLAddressListbox",
+        "variableHint": null,
+        "objectName": null,
+        "state": null
+      },
+      {
+        "$type": "CentralStationApiModels.GridPhonesField, CentralStationApiModels",
+        "value": [
+          {
+            "addressType": "Zakelijk",
+            "phoneNumber": "0612345678",
+            "isDefaultPhoneNumber": true
+          }
+        ],
+        "checkBox": 1,
+        "name": "xmlTelefoon",
+        "variableName": "sndtelefoon",
+        "mandatory": false,
+        "label": "Telefoon",
+        "tabsheet": "Personalia",
+        "tabsheetIndex": 1,
+        "keylistName": null,
+        "componentOrder": 6,
+        "visible": true,
+        "parentName": null,
+        "fieldXmlType": "TXMLAddressListbox",
+        "variableHint": null,
+        "objectName": null,
+        "state": null
+      },
+      {
+        "$type": "CentralStationApiModels.ComboBoxValuesField, CentralStationApiModels",
+        "value": {
+          "keyListId": 49,
+          "keyId": 938,
+          "keyValue": 3
+        },
+        "checkBox": 1,
+        "name": "xmlRegio",
+        "variableName": "sndregio",
+        "mandatory": false,
+        "label": "Regio",
+        "tabsheet": "Personalia",
+        "tabsheetIndex": 1,
+        "keylistName": "keyregiokantoor",
+        "componentOrder": 3,
+        "visible": false,
+        "parentName": null,
+        "fieldXmlType": "TXMLComboboxValues",
+        "variableHint": null,
+        "objectName": null,
+        "state": null
+      },
+      {
+        "$type": "CentralStationApiModels.NameField, CentralStationApiModels",
+        "value": {
+          "title": "ms",
+          "suffix": "as",
+          "middleName": "sdsd",
+          "gender": 2,
+          "firstName": "dfd",
+          "callName": "fdf",
+          "initials": "M.",
+          "lastName": "three"
+        },
+        "checkBox": 1,
+        "name": "xmlname",
+        "variableName": "sndname",
+        "mandatory": true,
+        "label": "Naam",
+        "tabsheet": "Personalia",
+        "tabsheetIndex": 1,
+        "keylistName": null,
+        "componentOrder": 1,
+        "visible": true,
+        "parentName": null,
+        "fieldXmlType": "TXMLName",
+        "variableHint": null,
+        "objectName": null,
+        "state": null
+      },
+      {
+        "$type": "CentralStationApiModels.ComboBoxValuesField, CentralStationApiModels",
+        "value": {
+          "keyListId": 85,
+          "keyId": 1038,
+          "keyValue": 20
+        },
+        "checkBox": 1,
+        "name": "xmlFunctie",
+        "variableName": "sndfunctie",
+        "mandatory": false,
+        "label": "Functie",
+        "tabsheet": "Teams",
+        "tabsheetIndex": 2,
+        "keylistName": "keyfunctie",
+        "componentOrder": 8,
+        "visible": true,
+        "parentName": null,
+        "fieldXmlType": "TXMLComboboxValues",
+        "variableHint": null,
+        "objectName": null,
+        "state": null
+      },
+      {
+        "$type": "CentralStationApiModels.ReceiverListField, CentralStationApiModels",
+        "value": [
+          {
+            "id": 148,
+            "name": "BT Sociaal",
+            "fields": [
+
+            ],
+            "receiverRights": [
+
+            ],
+            "messageRights": [
+
+            ],
+            "documentRights": [
+
+            ],
+            "calendarRights": [
+
+            ],
+            "category": {
+              "id": 120,
+              "templateId": 0,
+              "name": null,
+              "code": null,
+              "image": null,
+              "categoryRights": [
+
+              ],
+              "defaultGroupId": 0,
+              "categoryOpenAction": null,
+              "categoryOptions": [
+
+              ]
+            },
+            "childCount": null,
+            "creationDate": "0001-01-01T00:00:00",
+            "lastModifiedDate": "0001-01-01T00:00:00",
+            "owner": null,
+            "createdBy": null,
+            "isCreatedByCurrentUser": false,
+            "lastModifiedBy": null
+          }
+        ],
+        "checkBox": 1,
+        "name": "xmlTeams",
+        "variableName": "sndteams",
+        "mandatory": false,
+        "label": "Teams",
+        "tabsheet": "Teams",
+        "tabsheetIndex": 2,
+        "keylistName": null,
+        "componentOrder": 9,
+        "visible": true,
+        "parentName": null,
+        "fieldXmlType": "TXMLTreeList",
+        "variableHint": null,
+        "objectName": null,
+        "state": null
+      },
+      {
+        "$type": "CentralStationApiModels.StringField, CentralStationApiModels",
+        "value": "email@email.nl",
+        "isMemo": false,
+        "checkBox": 1,
+        "name": "xmlEmail",
+        "variableName": "sndemail",
+        "mandatory": false,
+        "label": "E-mail",
+        "tabsheet": "Personalia",
+        "tabsheetIndex": 1,
+        "keylistName": null,
+        "componentOrder": 5,
+        "visible": true,
+        "parentName": null,
+        "fieldXmlType": "TXMLString",
+        "variableHint": null,
+        "objectName": null,
+        "state": null
+      }
+    ],
+    "receiverRights": [
+      "AllowView",
+      "AllowEdit",
+      "AllowDelete",
+      "AllowMessagePopup",
+      "AllowTimeManagement",
+      "AllowTechnicalFunctions",
+      "AllowAvailability",
+      "AllowPlanner",
+      "AvailableInTimeManagement",
+      "AllowTimeProjectAdjustment",
+      "AllowTraceSettings",
+      "AllowChat",
+      "AllowLock",
+      "AllowShowInTree",
+      "AllowDestroy",
+      "NoConfirmAtOpen"
+    ],
+    "messageRights": [
+      "AllowViewByOwner",
+      "AllowEditByOwner",
+      "AllowDeleteByOwner",
+      "AllowPinByOwner",
+      "AllowReadstatusByOwner",
+      "AllowArchiveByOwner",
+      "AllowLockByOwner",
+      "AllowChangeOwnerByOwner",
+      "AllowViewByReceiver",
+      "AllowEditByReceiver",
+      "AllowDeleteByReceiver",
+      "AllowPinByReceiver",
+      "AllowReadstatusByReceiver",
+      "AllowArchiveByReceiver",
+      "AllowLockByReceiver",
+      "AllowChangeOwnerByReceiver",
+      "AllowSendInNameByReceiver"
+    ],
+    "documentRights": [
+      "AllowViewByOwner",
+      "AllowEditByOwner",
+      "AllowDeleteByOwner",
+      "AllowViewByReceiver",
+      "AllowEditByReceiver",
+      "AllowDeleteByReceiver",
+      "AllowViewByShare",
+      "AllowEditByShare",
+      "AllowDeleteByShare",
+      "AllowChangeOwnerByOwner",
+      "AllowChangeOwnerByReceiver",
+      "AllowLockByReceiver",
+      "AllowLockByOwner",
+      "AllowAdd"
+    ],
+    "calendarRights": [
+      "AllowCreateByReceiver",
+      "AllowOpenByReceiver",
+      "AllowEditByReceiver",
+      "AllowDeleteByReceiver",
+      "AllowEditAllTasks",
+      "AllowOpenAllTasks",
+      "AllowDeleteAllTasks",
+      "AllowOpenOfCalendar"
+    ],
+    "category": {
+      "id": 40,
+      "templateId": 92,
+      "name": "Medewerker",
+      "code": "MEDEWERKER",
+      "image": "16_businessperson",
+      "categoryRights": [
+        "AllowCreate",
+        "AllowOpen",
+        "AllowSearch",
+        "AllowExtendedSearch",
+        "AllowReports"
+      ],
+      "defaultGroupId": 41,
+      "categoryOpenAction": "oaProperties",
+      "categoryOptions": [
+        "OptionBit04",
+        "OptionBit05",
+        "OptionBit06",
+        "OptionBit08",
+        "OptionBit09",
+        "HideDocumentsTab",
+        "HideAgendaTab",
+        "OptionBit20"
+      ]
+    },
+    "childCount": null,
+    "creationDate": "2018-10-29T00:00:00+01:00",
+    "lastModifiedDate": "2019-02-28T00:00:00+01:00",
+    "owner": null,
+    "createdBy": 1,
+    "isCreatedByCurrentUser": true,
+    "lastModifiedBy": 1
+  }
